@@ -1,0 +1,76 @@
+{
+		"name": "Devlix Default",
+		"thumbnail": "https://github.com/mhd12e/devlix-default-theme/",
+		"defaults": {
+			"colors": {
+				"text-primary-light": {
+                    "type": "color", 
+                    "default":"#0e0e11"
+                },
+                "text-secondary-light": {
+                    "type": "color",
+                    "default": "#4b5563" 
+                },
+                "text-accent-light": {
+                    "type": "color",
+                    "default": "#007acc"
+                },
+                "background-light": {
+                    "type": "color",
+                    "default": "white"
+                },
+                "text-selection-bg-light": {
+                    "type": "color",
+                    "default": "#007acc"
+                },
+                "text-selection-font-color-light": {
+                    "type": "color",
+                    "default": "white"
+                },
+                "text-primary-dark": {
+                    "type": "color",
+                    "default": "#e5e7eb"
+                },
+                "text-secondary-dark": {
+                    "type": "color",
+                    "default": "#a9a9a9"
+                },
+                "text-accent-dark": {
+                    "type": "color",
+                    "default": "#9DDFFA"
+                },
+                "background-dark": {
+                    "type": "color",
+                    "default": "#0e0e11"
+                },
+                "text-selection-bg-dark": {
+                    "type": "color",
+                    "default": "#9DDFFA"
+                },
+                "text-selection-font-color-dark": {
+                    "type": "color",
+                    "default": "black"
+                }
+
+			},
+            "sizes": {
+                "max-screen-width": {
+                    "type": "unit",
+                    "default": "50rem"
+                },
+                "site-scale": {
+                    "type": "unit",
+                    "default": "100%"
+                },
+                "asci-size": {
+                    "type": "unit",
+                    "default": "0.75rem"
+                },
+                "asci-line-height": {
+                    "type": "unit",
+                    "default": "0.8rem"
+                }
+
+            }
+		}
+	}

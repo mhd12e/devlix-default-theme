@@ -1,0 +1,48 @@
+<style>
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--text-primary);
+    background-color: var(--background);
+}
+
+td,
+th {
+    border: 1px solid var(--text-secondary);
+    padding: 0.5rem;
+}
+
+tr:nth-child(even) {
+    background-color: color-mix(
+        in srgb,
+        var(--background) 90%,
+        var(--text-primary) 10%
+    );
+}
+
+tr:hover {
+    background-color: color-mix(
+        in srgb,
+        var(--background) 80%,
+        var(--text-accent) 20%
+    );
+}
+
+th {
+    text-align: left;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: var(--text-accent);
+    color: var(--text-selection-font-color);
+}
+
+</style>
+
+<p class="date no-pad">{POST-DATE}</p>
+<h1 class="blog-title no-pad"><a href="./">{POST-TITLE}</a></h1>
+
+
+<div class="content">
+    {MARKDOWN-RENDER}
+</div>

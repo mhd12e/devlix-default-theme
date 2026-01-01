@@ -1,0 +1,18 @@
+:root {
+    --max-screen-width: 50rem;
+    --site-scale: 100%;
+    --asci-size: 0.75rem;
+    --asci-line-height: 0.8rem;
+    --text-primary-light: #0e0e11;
+    --text-secondary-light: #4b5563;
+    --text-accent-light: #007acc;
+    --background-light: white;
+    --text-selection-bg-light: #007acc;
+    --text-selection-font-color-light: white;
+    --text-primary-dark: #e5e7eb;
+    --text-secondary-dark: #a9a9a9;
+    --text-accent-dark: #9DDFFA;
+    --background-dark: #0e0e11;
+    --text-selection-bg-dark: #9DDFFA;
+    --text-selection-font-color-dark: black;
+}
